@@ -2,8 +2,8 @@
  (L) Lithium V.01 : A simple selenium based facebook login cracker.
 
  Written By : Tanmay Upadhyay
- Email : kevinthemetnik@gmail.com
- facebook : (fb.com/tanmayupadhyay91)
+ Email : silsheyrar@gmail.com
+ facebook : (  https://www.facebook.com/profile.php?id=61562850255556&mibextid=ZbWKwL )
 
  (I will try to provide threading and proxy support in upcomming versions of lithium, (help is appreciated).)
 
